@@ -1,0 +1,31 @@
+.content div:not(:last-child) {
+  /* margin-bottom: 22px; */
+  border-bottom: 0.5px solid #888888;
+}
+
+.paragraph:not(:last-of-type) {
+  margin-bottom: 0.8rem;
+}
+
+.twit .paragraph {
+  font-size: 1.2rem;
+}
+
+.twit-name {
+  font-size: 1.5rem;
+  margin-right: 7px;
+}
+
+.twit-id {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.user-id,
+.twit-name,
+.bio-title {
+  color: #e3e3e3;
+}
+.content > div {
+  margin: 8px 0;
+}
